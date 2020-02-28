@@ -1,0 +1,14 @@
+<p>navbar works!</p>
+
+<nav class="navbar navbar-light bg-light">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a [routerLink]="['/MyInfo']" class="nav-link">About</a>
+            <!-- not binding page a like ['pageA'] allows it to be the default page -->
+        </li>
+        <li class="nav-item">
+            <a [routerLink]="['/Movies']"class="nav-link">Movies</a>
+            <!-- a normal link is not used, a routerlink if used instead -->
+        </li>
+    </ul>
+</nav>
